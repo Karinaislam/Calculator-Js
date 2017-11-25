@@ -1,0 +1,97 @@
+body {
+  font-family: 'Rajdhani', sans-serif;
+  background-color: #52575D;
+  height: 100%;
+  font-size: 16px;
+}
+
+.calc {
+  display: table;
+  table-layout: fixed;
+  background-color: #284184;
+  width: 322px;
+  height: 480px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+
+.btn-style {
+  background-color: #d4d9e6;
+  color: #18274f;
+  font-size: 24px;
+  height: 75px;
+  width: 80px;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+
+}
+
+.btn-style:active {
+  background-color: #a9b3cd;
+}
+
+.ops-btn-style {
+  background-color: #93a0c1;
+  color: #fff;
+
+}
+
+
+.screen {
+  background-color: #284184;
+  color: #fff;
+  width: auto;
+  height: 179px;
+  position: relative;
+}
+
+#screen-num {
+  font-family: 'Yantramanav', sans-serif;
+  font-size: 61px;
+  display: table-cell;
+  text-align: right;
+  vertical-align: middle;
+  padding: 0 10px;
+  word-wrap: break-word;
+  overflow: hidden;
+}
+
+.clear-btn-container {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#clear-btn {
+  background-color: #842841;
+  color: #fff;
+  height: auto;
+  border-radius: 5px;
+  padding: 0 5px;
+}
+
+#clear-btn:active {
+  background-color: #9c5266;
+}
+
+#solve-btn {
+  background-color: #842841;
+  color: #fff;
+
+}
+
+#solve-btn:active {
+  background-color: #9c5266;
+}
